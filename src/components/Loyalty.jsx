@@ -26,7 +26,7 @@ export default function Loyalty() {
 
         {/* Header */}
         <Text variant="headlineMedium" style={styles.heading}>
-          Richie's Diner
+          Yanni's Diner
         </Text>
         <Text variant="titleMedium" style={styles.subheading}>
           Loyalty Rewards

@@ -30,7 +30,7 @@ export function resetOrders() {
 function welcoming() {
   let aReturn = [];
   currentState = browsing;
-  aReturn.push("Welcome to Richie's Diner! 🍔");
+  aReturn.push("Welcome to Yanni's Diner! 🍔");
   aReturn.push("Here's our menu:");
   MENU.forEach((item) => {
     aReturn.push(`  ${item.id}. ${item.name} — $${item.price.toFixed(2)}`);
