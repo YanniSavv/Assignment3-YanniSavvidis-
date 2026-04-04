@@ -11,7 +11,7 @@ import {
   Divider,
 } from 'react-native-paper';
 import ChatView from './ChatView';
-import { getOrderCount } from '../src/Order';
+import { getOrderCount } from '../Order';
 
 export default function Loyalty() {
   const [chatOpen, setChatOpen] = useState(false);
